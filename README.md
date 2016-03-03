@@ -2,7 +2,8 @@
 a colorful like btn,inspired by [danmu.fm](http://danmu.fm)
 
 screen:
-![gif]()
+
+![gif](https://raw.githubusercontent.com/ayaseruri/LikeBtn/master/demo/screen.gif)
 
 ### add to your project
 ```java
@@ -14,7 +15,7 @@ allprojects {
 	}
 
   dependencies {
-  	        compile 'com.github.ayaseruri:LikeBtn:-SNAPSHOT'
+    compile 'com.github.ayaseruri:LikeBtn:V1.0'
   	}
 ```
 
