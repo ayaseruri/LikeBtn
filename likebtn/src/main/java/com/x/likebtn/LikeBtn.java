@@ -73,7 +73,6 @@ public class LikeBtn extends FrameLayout{
         ringImg = (RingImg) findViewById(R.id.ring_img);
 
         heartImg.setColorFilter(islike?likeHeartColor:dislikeHeartColor);
-        starImg.setColorFilter(starColor);
     }
 
     private void startAnimation(){
@@ -136,6 +135,8 @@ public class LikeBtn extends FrameLayout{
         ringImg.setVisibility(VISIBLE);
         ringImg.setmRingColor(likeHeartColor);
         ringImg.setmOvalInner(0);
+
+        starImg.setColorFilter(starColor);
 
         float outterMax = Math.min(heartImg.getWidth(), heartImg.getHeight())/2;
         ValueAnimator outterAnimator = ObjectAnimator.ofFloat(startSize, outterMax);

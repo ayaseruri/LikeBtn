@@ -14,8 +14,8 @@
         android:id="@+id/like_btn"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:layout_centerInParent="true"
-        app:dislike_heart_color="@android:color/white"
-        app:like_heart_color="@color/colorPrimary"
-        app:star_color="@color/colorAccent"/>
+        android:layout_centerInParent="true"/>
+        <!--app:dislike_heart_color="@android:color/white"-->
+        <!--app:like_heart_color="@color/colorPrimary"-->
+        <!--app:star_color="@color/colorAccent"/>-->
 </RelativeLayout>
